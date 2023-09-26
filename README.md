@@ -87,3 +87,9 @@ spring.mvc.view.suffix: .jsp
 ``` 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 ```
+
+## Sort 
+```
+Max -> Min
+Collections.sort(list, (item1, item2) -> item2.getTuoi() - item2.getTuoi());
+```
