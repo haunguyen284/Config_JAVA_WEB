@@ -1,5 +1,10 @@
 # Config_JAVA_WEB
 
+## Config name db
+```
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+```
+
 ## Config jsp 
 ```
 spring.mvc.view.prefix: /WEB-INF/view/
